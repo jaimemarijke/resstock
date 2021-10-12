@@ -66,11 +66,11 @@ metadata	in.hvac_heating_type_and_fuel	string	n/a	Presence, type, and fuel of he
 metadata	in.hvac_secondary_heating_efficiency	string	n/a	Presence and efficiency of secondary heating system	None
 metadata	in.hvac_secondary_heating_type_and_fuel	string	n/a	Presence, type, and fuel of secondary heating system	None
 metadata	in.hvac_shared_efficiencies	string	n/a	Presence and efficiency of shared HVAC system	Boiler Baseboards Heating Only, Electricity|Boiler Baseboards Heating Only, Fuel Oil|Boiler Baseboards Heating Only, Natural Gas|Boiler Baseboards Heating Only, Propane|Fan Coil Cooling Only|Fan Coil Heating and Cooling, Electricity|Fan Coil Heating and Cooling, Fuel Oil|Fan Coil Heating and Cooling, Natural Gas|Fan Coil Heating and Cooling, Propane|None
-metadata	in.hvac_system_is_faulted	string	n/a	n/a	No
-metadata	in.hvac_system_single_speed_ac_airflow	string	cfm/ton	n/a	None
-metadata	in.hvac_system_single_speed_ac_charge	string	n/a	n/a	None
-metadata	in.hvac_system_single_speed_ashp_airflow	string	cfm/ton	n/a	None
-metadata	in.hvac_system_single_speed_ashp_charge	string	n/a	n/a	None
+metadata	in.hvac_system_is_faulted	string	n/a	Not used	No
+metadata	in.hvac_system_single_speed_ac_airflow	string	cfm/ton	Not used	None
+metadata	in.hvac_system_single_speed_ac_charge	string	n/a	Not used	None
+metadata	in.hvac_system_single_speed_ashp_airflow	string	cfm/ton	Not used	None
+metadata	in.hvac_system_single_speed_ashp_charge	string	n/a	Not used	None
 metadata	in.infiltration	string	ACH50	Air leakage rates for the living and garage spaces	1 ACH50|10 ACH50|15 ACH50|2 ACH50|20 ACH50|25 ACH50|3 ACH50|30 ACH50|4 ACH50|40 ACH50|5 ACH50|50 ACH50|6 ACH50|7 ACH50|8 ACH50
 metadata	in.insulation_ceiling	string	n/a	Ceiling insulation level	None|R-13|R-19|R-30|R-38|R-49|R-7|Uninsulated
 metadata	in.insulation_floor	string	n/a	Floor insulation level	Ceiling R-13|Ceiling R-19|Ceiling R-30|None|Uninsulated
