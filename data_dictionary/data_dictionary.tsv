@@ -165,8 +165,8 @@ timeseries	out.electricity.hot_tub_pump.energy_consumption	float	kWh	Energy cons
 timeseries	out.electricity.hot_tub_pump.energy_consumption_intensity	float	kWh/sqft	Energy consumed by hot tub pumps relative to building size	n/a
 timeseries	out.electricity.house_fan.energy_consumption	float	kWh	Energy consumed by whole house fans	n/a
 timeseries	out.electricity.house_fan.energy_consumption_intensity	float	kWh/sqft	Energy consumed by whole house fans relative to building size	n/a
-timeseries	out.electricity.interior_lighting.energy_consumption	float	kWh	Energy consumed by interior lightings	n/a
-timeseries	out.electricity.interior_lighting.energy_consumption_intensity	float	kWh/sqft	Energy consumed by interior lightings relative to building size	n/a
+timeseries	out.electricity.interior_lighting.energy_consumption	float	kWh	Energy consumed by interior lighting	n/a
+timeseries	out.electricity.interior_lighting.energy_consumption_intensity	float	kWh/sqft	Energy consumed by interior lighting relative to building size	n/a
 timeseries	out.electricity.plug_loads.energy_consumption	float	kWh	Energy consumed by plug loads	n/a
 timeseries	out.electricity.plug_loads.energy_consumption_intensity	float	kWh/sqft	Energy consumed by plug loads relative to building size	n/a
 timeseries	out.electricity.pool_heater.energy_consumption	float	kWh	Energy consumed by pool heaters	n/a
