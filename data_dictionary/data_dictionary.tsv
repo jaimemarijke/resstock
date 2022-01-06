@@ -169,8 +169,8 @@ metadata & timeseries	out.electricity.garage_lighting.energy_consumption	float	k
 metadata & timeseries	out.electricity.garage_lighting.energy_consumption_intensity	float	kWh/sqft	Energy consumed by garage lighting relative to building size	n/a
 metadata & timeseries	out.electricity.heating.energy_consumption	float	kWh	Energy consumed by electric heating systems	n/a
 metadata & timeseries	out.electricity.heating.energy_consumption_intensity	float	kWh/sqft	Energy consumed by electric heating systems relative to building size	n/a
-metadata & timeseries	out.electricity.heating_supplement.energy_consumption	float	kWh	Energy consumed by supplemental heating systems	n/a
-metadata & timeseries	out.electricity.heating_supplement.energy_consumption_intensity	float	kWh/sqft	Energy consumed by supplemental heating systems relative to building size	n/a
+metadata & timeseries	out.electricity.heating_supplement.energy_consumption	float	kWh	Energy consumed by supplemental electric resistance heating for heat pumps	n/a
+metadata & timeseries	out.electricity.heating_supplement.energy_consumption_intensity	float	kWh/sqft	Energy consumed by supplemental electric resistance heating for heat pumps relative to building size	n/a
 metadata & timeseries	out.electricity.hot_tub_heater.energy_consumption	float	kWh	Energy consumed by hot tub heaters	n/a
 metadata & timeseries	out.electricity.hot_tub_heater.energy_consumption_intensity	float	kWh/sqft	Energy consumed by hot tub heaters relative to building size	n/a
 metadata & timeseries	out.electricity.hot_tub_pump.energy_consumption	float	kWh	Energy consumed by hot tub pumps	n/a
