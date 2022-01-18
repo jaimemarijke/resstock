@@ -249,3 +249,18 @@ metadata & timeseries	out.site_energy.total.energy_consumption	float	kWh	Total e
 metadata & timeseries	out.site_energy.total.energy_consumption_intensity	float	kWh/sqft	Total energy consumed relative to building size	n/a
 metadata	upgrade	integer	n/a	Upgrade ID, upgrade=0 is always the baseline	0
 metadata	metadata_index	integer	n/a	metadata index	n/a
+metadata	qoi_report.average_maximum_daily_timing_cooling_hour	float	hour/minute of day	"Daily peak timing, average of all days in cooling season (daily average temperature greater than 70 F)"	[0-23]
+metadata	qoi_report.average_maximum_daily_timing_heating_hour	float	hour/minute of day	"Daily peak timing, average of all days in winter season (daily average temperature less than 55 F)"	[0-23]
+metadata	qoi_report.average_maximum_daily_timing_overlap_hour	float	hour/minute of day	"Daily peak timing, average of all days in overlap season (daily average temperature between 55 F and 70 F)"	[0-23]
+metadata	qoi_report.average_maximum_daily_use_cooling_kw	float	kw	"Daily peak load, average of all days in cooling season (daily average temperature greater than 70 F)"	n/a
+metadata	qoi_report.average_maximum_daily_use_heating_kw	float	kw	"Daily peak load, average of all days in heating season (daily average temperature less than 55 F)"	n/a
+metadata	qoi_report.average_maximum_daily_use_overlap_kw	float	kw	"Daily peak load, average of all days in overlap season (daily average temperature between 55 F and 70 F)"	n/a
+metadata	qoi_report.average_minimum_daily_use_cooling_kw	float	kw	"Daily minimum base load, average of all days in cooling season (daily average temperature greater than 70 F)"	n/a
+metadata	qoi_report.average_minimum_daily_use_heating_kw	float	kw	"Daily minimum base load, average of all days in heating season (daily average temperature less than 55 F)"	n/a
+metadata	qoi_report.average_minimum_daily_use_overlap_kw	float	kw	"Daily minimum base load, average of all days in overlap season (daily average temperature between 55 F and 70 F)"	n/a
+metadata	qoi_report.average_of_top_ten_highest_peaks_timing_cooling_hour	float	hour/minute of day	"Daily peak timing, average of top 10 days of cooling season (daily average temperature greater than 70 F)"	[0-23]
+metadata	qoi_report.average_of_top_ten_highest_peaks_timing_heating_hour	float	hour/minute of day	"Daily peak timing, average of top 10 days of heating season (daily average temperature less than 55 F)"	[0-23]
+metadata	qoi_report.average_of_top_ten_highest_peaks_use_cooling_kw	float	kw	"Daily peak load, average of top 10 days of cooling season (daily average temperature greater than 70 F)"	n/a
+metadata	qoi_report.average_of_top_ten_highest_peaks_use_heating_kw	float	kw	"Daily peak load, average of top 10 days of heating season (daily average temperature less than 55 F)"	n/a
+metadata	qoi_report.peak_magnitude_timing_hour	float	hour/minute of year	Annual peak timing	[0-8760]
+metadata	qoi_report.peak_magnitude_use_kw	float	kw	Annual peak load	n/a
