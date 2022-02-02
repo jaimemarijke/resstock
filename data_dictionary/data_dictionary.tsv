@@ -266,11 +266,11 @@ metadata	qoi_report.peak_magnitude_timing_hour	float	hour/minute of year	Annual 
 metadata	qoi_report.peak_magnitude_use_kw	float	kw	Annual peak load	n/a
 metadata	in.door_area_ft_2	float	sqft	Door area	n/a
 metadata	in.duct_unconditioned_surface_area_ft_2	float	sqft	Duct unconditioned surface area	n/a
-metadata	floor_area_attic_ft_2	float	sqft	Attic floor area	n/a
-metadata	floor_area_conditioned_ft_2	float	sqft	Conditioned floor area	n/a
-metadata	floor_area_lighting_ft_2	float	sqft	Lighting floor area	n/a
-metadata	roof_area_ft_2	float	sqft	Roof area	n/a
-metadata	wall_area_above_grade_conditioned_ft_2	float	sqft	Above grade conditioned wall area	n/a
-metadata	wall_area_above_grade_exterior_ft_2	float	sqft	Above grade exterior wall area	n/a
-metadata	wall_area_below_grade_ft_2	float	sqft	Below grade wall area	n/a
-metadata	window_area_ft_2	float	sqft	Window area	n/a
+metadata	in.floor_area_attic_ft_2	float	sqft	Attic floor area	n/a
+metadata	in.floor_area_conditioned_ft_2	float	sqft	Conditioned floor area	n/a
+metadata	in.floor_area_lighting_ft_2	float	sqft	Lighting floor area	n/a
+metadata	in.roof_area_ft_2	float	sqft	Roof area	n/a
+metadata	in.wall_area_above_grade_conditioned_ft_2	float	sqft	Above grade conditioned wall area	n/a
+metadata	in.wall_area_above_grade_exterior_ft_2	float	sqft	Above grade exterior wall area	n/a
+metadata	in.wall_area_below_grade_ft_2	float	sqft	Below grade wall area	n/a
+metadata	in.window_area_ft_2	float	sqft	Window area	n/a
